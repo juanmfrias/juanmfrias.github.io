@@ -1,0 +1,84 @@
+body {
+	width: 1000px;
+	margin: auto;
+	text-align: center;
+	background-color: #1f1f1f;
+}
+
+body * {
+	font-family: Arial;
+	color: #eeeeee;
+}
+
+h1, h2, h3, h4 {
+	margin: 0px;
+}
+
+label {
+	width: 150px;
+	display: inline-block;
+	font-weight: bold;
+}
+
+.mainImage {
+	object-fit: cover;
+	margin: 20px 0px 20px 0px;
+	border-radius: 10px;
+	border: 1px solid #999999;
+}
+
+div {
+	padding: 20px;
+	border-radius: 10px;
+}
+
+.reservationFormPanel {
+	width: 450px;
+	float: left;
+	background-color: #000000;
+}
+
+.reservationsPanel {
+	width: 450px;
+	float: right;
+	background-color: #a62947;
+}
+
+table {
+	width: 100%;
+}
+
+table, th, td {
+	border: 1px solid #999999;
+}
+
+.customerReviewsPanel {
+	background-color: #a62947;
+}
+
+.reviewPic {
+	width: 400px;
+	border: 1px solid #999999;
+	border-radius: 10px;
+	float: left;
+}
+
+.review {
+	width: 400px;
+	text-align: right;
+	float: right;
+}
+
+.reviewSignature {
+	font-style: italic;
+}
+
+.clear {
+	clear: both;
+}
+
+button {
+	color: #000000;
+	font-weight: bold;
+	width: 150px;
+}

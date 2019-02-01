@@ -1,11 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>Juan's Site</title>
+   <meta charset="UTF-8">
+   <title>Monk's Cafe</title>
+   <!-- boostrap css -->
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+   <!-- local css -->
+   <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-	<h1>Hello World</h1>
-	<h2>Adding more text</h2>
+   	<h1>Monk’s Cafe</h1>
+	<h4>“The Coffee Shop”</h4>
+
+	<img src="images/toms-restaurant.jpg" class="mainImage" width="1000" height="400">
+
+	<h2>Reservations</h2>
+	<br />
+	<div class="reservationFormPanel">
+		<h4>Make a Reservation</h4>
+		<br />
+		<form>
+    		<label for="name">Name:</label><input type="text" id="name" placeholder="Name"><br />
+    		<label for="day">Day:</label><input type="day" id="name" placeholder="Day"><br /><br />
+    		<button>Confirm</button>
+		</form>
+	</div>
+
+	<div class="reservationsPanel">
+		<h4>Existing Reservations</h4>
+		<br />
+
+		<table>
+			<thead>
+				<th style="width: 50%;">Name</th>
+				<th style="width: 50%;">Day</th>
+			</thead>
+			<tbody>
+				<tr>
+					<td>&nbsp;</td>
+					<td>&nbsp;</td>
+				</tr>
+				<tr>
+					<td>&nbsp;</td>
+					<td>&nbsp;</td>
+				</tr>
+				<tr>
+					<td>&nbsp;</td>
+					<td>&nbsp;</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+
+	<div class="clear"></div>
+	
+	<h1>Come Dine with Us</h1>
+
+	<div class="container-fluid restaurant-locator">
+		<div class="row">
+			<div id="map" class="col-md-12" style="height:50vh"></div>
+		</div>
+    </div>
+
+    <div class="customerReviewsPanel">
+		<h1>Customer Reviews</h1>
+		<br />
+		<div>
+			<img src="images/jerry.jpg" class="reviewPic">
+			<div class="review">
+				“Big lettuce, big carrots, tomatoes like volleyballs.”
+				<div class="reviewSignature">— Jerry Seinfeld, on The BIG Salad</div>
+			</div>
+			<div class="clear"></div>
+		</div>
+	</div>
+
+   <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+   <script src="js/main.js"></script>
+   <!-- google maps -->
+   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDDbt1M_Y1NT5NIZ27O1y0L-PXT5-bEIjs" async defer></script>
 </body>
 </html>
